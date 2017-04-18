@@ -1,0 +1,53 @@
+// Text Colors
+$basefont: #333;
+$linkcolor: #2cac01;
+$hovertext: #51d225;
+$white: #fff;
+// Weights
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 600;
+$strong: 700;
+$italic: italic;
+// Border Colors
+$border-color: #ff9c00;
+$hr-border: #d9d8d7;
+// BG Colors
+$bg-base: #e9f2e9;
+$bg-footer: #c2ca6b;
+$bg-sub: #47922e;
+
+
+$bg-white: rgba( $white, 0.5 );
+$bg-hokudaigreen: #157e2d;
+$bg-linkcolor: rgba( $linkcolor, 0.3 );
+$text-bg: #f5f5f0;
+
+// Border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin border-top-left-radius($radius) {
+  -webkit-border-top-left-radius: $radius;
+      -moz-border-radius-topleft: $radius;
+          border-top-left-radius: $radius;
+}
+@mixin border-top-right-radius($radius) {
+  -webkit-border-top-right-radius: $radius;
+      -moz-border-radius-topright: $radius;
+          border-top-right-radius: $radius;
+}
+@mixin border-bottom-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+      -moz-border-radius-bottomright: $radius;
+          border-bottom-right-radius: $radius;
+}
+@mixin border-bottom-left-radius($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+      -moz-border-radius-bottomleft: $radius;
+          border-bottom-left-radius: $radius;
+}
